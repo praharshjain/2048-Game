@@ -1,12 +1,7 @@
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.GridLayout;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.*;
+import java.awt.event.*;
 import java.util.Random;
-import javax.swing.BorderFactory;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.*;
 
 public class Game2048 extends JFrame implements KeyListener {
 	JLabel[][] label = new JLabel[4][4];
@@ -21,7 +16,9 @@ public class Game2048 extends JFrame implements KeyListener {
 	}
 
 	public Game2048() {
-		setTitle("Play 2048 Game");
+		setTitle("2048");
+		ImageIcon img = new ImageIcon("icon.png");
+        setIconImage(img.getImage());
 		setSize(400, 400);
 		setLayout(new GridLayout(4, 4));
 		setVisible(true);
@@ -346,6 +343,6 @@ public class Game2048 extends JFrame implements KeyListener {
 	}
 
 	public static void main(String args[]) {
-		Game2048 g = new Game2048();
+		Game2048 game = new Game2048();
 	}
 }
