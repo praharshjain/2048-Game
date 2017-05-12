@@ -5,6 +5,11 @@ The user interface is created using Swing controls.
   
 Usage
 ----------------
+
+Download executable jar from [Releases](https://github.com/praharshjain/2048-Game/releases)
+
+Or build from source :  
+
 To compile - 
 ```
 $ javac Game2048.java
