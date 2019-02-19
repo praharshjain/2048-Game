@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpraharshjain%2F2048-Game.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpraharshjain%2F2048-Game?ref=badge_shield)
+
 <img src="https://github.com/praharshjain/2048-Game/blob/master/icon.png" width="40">&nbsp;&nbsp;2048-Game
 ==========
 Implementation of 2048 game in Java.  
@@ -27,3 +29,7 @@ Screenshot
 License
 ----------------
 MIT
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpraharshjain%2F2048-Game.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpraharshjain%2F2048-Game?ref=badge_large)
